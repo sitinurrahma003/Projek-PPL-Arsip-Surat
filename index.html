@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Masuk — Persuratan</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Figtree:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="login">
+  <div class="l-hero">
+    <h1>Kelola Surat dan Disposisi Lebih Mudah, Cepat, dan Efisien</h1>
+    <p>Catat surat masuk, buat surat keluar dengan nomor otomatis, dan pantau status disposisi dalam satu tempat.</p>
+  </div>
+  <form id="lf" autocomplete="off">
+    <div><label for="u">Nama pengguna</label><input id="u" required></div>
+    <div><label for="p">Kata sandi</label><input id="p" type="password" required></div>
+    <div class="err" id="le"></div>
+    <button class="btn" type="submit">Masuk</button>
+    <div class="hint">Akun contoh:<br><b>admin</b> / admin123 (bisa menghapus)<br><b>petugas</b> / petugas123</div>
+  </form>
+</section>
+
+<script src="login.js"></script>
+</body>
+</html>
